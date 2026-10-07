@@ -3,7 +3,7 @@
 #include <time.h>
 #include <string.h>
 
-#define TAMANHO 1000
+#define TAMANHO 10000
 
 void bubble_sort(int vetor[], int n);
 void insertion_sort(int vetor[], int n);
@@ -12,10 +12,6 @@ void preencherVetorAleatorio(int vetor[], int n);
 void copiarVetor(int origem[], int destino[], int n);
 	
 int main() {
-
-    /*Nome: Denzell Evangelista do Nascimento
-            Natanael Jose Tribess
-            Rafael Fernando Safanelli*/
 		
     int vetorOrdenado[TAMANHO];
     int vetorAleatorio[TAMANHO];
